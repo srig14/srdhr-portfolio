@@ -40,3 +40,15 @@ font-family: 'Montserrat', sans-serif;
 hr{
     margin : 2rem 0rem;
 }
+
+
+.list-non-bullet{
+    
+    list-style : none;
+
+}
+
+.list-item-inline{
+    display : inline;
+    padding : 0rem 0.5rem;
+}
