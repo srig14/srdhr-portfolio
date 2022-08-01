@@ -2,6 +2,7 @@
 
 body{
 font-family: 'Montserrat', sans-serif;
+margin : 0px;
 }
 
 
@@ -59,7 +60,7 @@ hr{
     background-color : var(--primary-color); 
     color : white;
     padding : 1rem;
-    border-bottom-left-radius : 0.5rem
+    border-bottom-left-radius : 1rem
 }
 
 .navigation .link{
@@ -112,4 +113,20 @@ hr{
 
 .ow{
     background-color: #f1f5f9;
+}
+
+.footer{
+    background-color: var(--primary-color); 
+    padding : 2rem 1rem;
+    color : white;
+    text-align : center;
+    border-top-right-radius : 1rem;
+}
+
+.footer .link{
+    color : white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
