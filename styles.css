@@ -20,6 +20,7 @@ font-family: 'Montserrat', sans-serif;
 :root {
     --primary-color : #0c4a6e;
     --secondary-color : #64748b;
+    --off-white : #f1f5f9;
 }
 
 .primary-link{
@@ -96,4 +97,19 @@ hr{
 
 .hero .heading-inverted{
     color : var(--primary-color);
+}
+
+
+.section{
+    padding : 2rem;
+
+}
+
+.section h1{
+    text-align : center;
+}
+
+
+.ow{
+    background-color: #f1f5f9;
 }
