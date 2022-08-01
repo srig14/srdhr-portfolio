@@ -19,7 +19,7 @@ margin : 0px;
 }
 
 :root {
-    --primary-color : #0c4a6e;
+    --primary-color : #4c1d95;
     --secondary-color : #64748b;
     --off-white : #f1f5f9;
 }
@@ -38,6 +38,7 @@ margin : 0px;
     text-decoration : none;
     padding : 0.5rem 1rem;
     border-radius : 0.5rem;
+    margin-top : 
 }
 
 hr{
@@ -88,6 +89,7 @@ hr{
     max-width : 350px;
     display : block;
     margin : auto;
+    padding : 2rem;
 }
 
 .hero .hero-heading{
@@ -112,7 +114,7 @@ hr{
 
 
 .ow{
-    background-color: #f1f5f9;
+    background-color: var(--off-white)
 }
 
 .footer{
@@ -129,4 +131,9 @@ hr{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight : bold;
+    font-size : large;
 }
